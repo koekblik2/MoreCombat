@@ -1,0 +1,4 @@
+name: MoreCombat
+version: '${version}'
+main: net.screamified.morecombat.MoreCombat
+api-version: 1.16

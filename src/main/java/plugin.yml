@@ -1,0 +1,39 @@
+name: MoreCombat
+main: net.screamified.morecombat.MoreCombat
+version: 1.0
+author: Screamified
+api-version: 1.16
+commands:
+  addpotioneffect:
+    description: Adds a potion effect to the held item.
+    permission: morecombat.addpotioneffect
+
+  removepotioneffect:
+    description: Removes a potion effect from the held item.
+    permission: morecombat.addpotioneffect
+
+  addbowability:
+    description: Adds a cool combat ability to the bow.
+    permission: morecombat.addbowability
+
+#permissions:
+#  morecombat.*:
+#    default: false
+#    description: Applies all permissions.
+#    children:
+#      morecombat.all: true
+#
+#  morecombat.all:
+#    default: false
+#    description: Applies all permissions.
+#    children:
+#      morecombat.addpotioneffect: true
+#      morecombat.removepotioneffect: true
+#
+#  morecombat.addpotioneffect:
+#    default: false
+#    description: Gives permissions to add potion effects to items.
+#
+#  morecombat.removepotioneffect:
+#    default: false
+#    description: Gives permissions to add potion effects to items.
